@@ -84,9 +84,7 @@ rand_loader = DataLoader(dataset=RandomDataset(input_size, data_size),
 # 간단한 모델
 # ------------
 #
-# For the demo, our model just gets an input, performs a linear operation, and
-# 데모에서, 우리는 입력 얻고, 선형 연산을 하고, 결과값을 주었습니다. 그러나 ``DataParallel``은 
-# 어떠한 다양한 모델에서도(CNN, RNN, Capsule Net etc.) 활용할 수 있습니다.
+# 데모에서, 우리는 입력 얻고, 선형 연산을 하고, 결과값을 주었습니다. 그러나 ``DataParallel``은 어떠한 다양한 모델에서도(CNN, RNN, Capsule Net etc.) 활용할 수 있습니다.
 #
 # 우리는 모델 안에 있는 입력값의 사이즈와 출력값 텐서를 확인하기 위한 출력문을 작성했습니다. 
 # batch rank 0에서 출력되다는 점에 주의를 부탁드립니다.
