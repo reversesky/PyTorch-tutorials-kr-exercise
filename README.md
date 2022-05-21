@@ -48,3 +48,5 @@ v1.0 이후 번역은 별도 저장소로 관리하지 않습니다. [이 저장
 ---
 This is a project to translate [pytorch/tutorials@24ad87f](https://github.com/pytorch/tutorials/commit/24ad87fdb9e5cd73ed8a27eed1efed6c4a7a1bb5) into Korean.
 For the latest version, please visit to the [official PyTorch tutorials repo](https://github.com/pytorch/tutorials).
+
+hi
